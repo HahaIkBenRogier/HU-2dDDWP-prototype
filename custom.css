@@ -1,0 +1,57 @@
+.bold {
+  font-weight: bold;
+}
+
+.main {
+  width: calc(100% - 344px);
+  float: left;
+}
+
+.widgetbar {
+  width: 344px;
+  float: left;
+}
+
+.files, .widgetside {
+  display: block;
+  float: left;
+  width: 100%;
+}
+
+.search .input-control.text {
+  width: 100%;
+  display: block;
+}
+
+.main .panel {
+  float: left;
+  width: calc(50% - (.625rem * 2));
+}
+
+.panel .list-subtitle {
+  white-space: inherit !important;
+}
+
+.panel .input-control.textarea, .panel div.button {
+    width: 100%;
+    float: left;
+    display: block;
+}
+
+.panel .list_meta {
+  width: 80px;
+  float: left;
+  height: auto;
+  display: block;
+}
+
+.panel .list_info {
+  float: right;
+  display: block;
+  height: auto;
+  width: calc(100% - 100px);
+}
+
+.panel .listview-outlook .list {
+  float: left;
+}
