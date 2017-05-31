@@ -1,38 +1,24 @@
 <?php
-$types = array (
-  'home' => array('Home', 'page_home.php'),
-  'search' => array("Results for 'RFC'", 'page_results.php'),
-  'bugs' => array("Bugs / RFC's", 'page_issuelog.php'),
-  'detail' => array("Detailpagina #294 Hahaja", 'page_detail.php')
-);
-
-$get = $_GET['page'];
-
-if (isset($get)) {
-  $include = $types[$get][1];
-  $name = $types[$get][0];
-} else {
-  $include = $types['home'][1];
-  $name = $types['home'][0];
-}
-
+include 'data_pages.php';
+include 'data_users.php';
+include 'setting_url.php';
 ?>
 <!DOCTYPE html>
 <html>
   <head>
-    <?php include 'head.php'; ?>
+    <?php include 'master_head.php'; ?>
   </head>
   <body>
     <?php include 'master_appbar.php'; ?>
     <div class="container">
         <header class="margin20 no-margin-left no-margin-right no-margin-top">
           <?php
-            if ($name === "Home") {
+            if ($page_name === "Home") {
             } else {
           ?>
             <div class="clear-float">
                 <a class="place-left" href="#" title="">
-                    <h1><?php echo $name; ?></h1>
+                    <h1><?php echo $page_name; ?></h1>
                 </a>
             </div>
             <?php };
@@ -45,19 +31,12 @@ if (isset($get)) {
                   <input type="text">
               </div>
             </div>
-            <?php include $include; ?>
+            <?php include $page_include; ?>
           </div>
           <div class="widgetbar">
-            <?php include 'master_apps.php'; ?>
+            <?php include 'panel_apps.php'; ?>
             <div class="widgetside">
-              <div class="panel margin10">
-                  <div class="heading">
-                      <span class="title">For me</span>
-                  </div>
-                  <div class="content">
-                      ... panel content ...
-                  </div>
-              </div>
+              <?php include 'panel_clippy.php'; ?>
             </div>
           </div>
         </div>
