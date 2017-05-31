@@ -6,26 +6,33 @@
             data-toggle-element="#toggle-tiles-dropdown"
             data-no-close="false" style="width: 324px;">
         <div class="tile-container bg-white">
-            <div class="tile-small bg-cyan">
-                <div class="tile-content iconic">
-                    <span class="icon mif-onedrive"></span>
-                </div>
+          <div class="tile bg-darkBlue fg-white" data-role="tile" onclick="document.location.href='/?page=home'" style="opacity: 1; transform: scale(1); transition: 0.3s;">
+            <div class="tile-content iconic">
+                <span class="icon mif-home"></span>
             </div>
-            <div class="tile-small bg-yellow">
-                <div class="tile-content iconic">
-                    <span class="icon mif-google"></span>
-                </div>
+            <span class="tile-label">Home</span>
+          </div>
+
+          <div class="tile bg-darkBlue fg-white" data-role="tile" onclick="document.location.href='/?page=search'" style="opacity: 1; transform: scale(1); transition: 0.3s;">
+            <div class="tile-content iconic">
+                <span class="icon mif-search"></span>
             </div>
-            <div class="tile-small bg-red">
-                <div class="tile-content iconic">
-                    <span class="icon mif-facebook"></span>
-                </div>
+            <span class="tile-label">Search</span>
+          </div>
+
+          <div class="tile bg-darkBlue fg-white" data-role="tile" onclick="document.location.href='/?page=bugs'" style="opacity: 1; transform: scale(1); transition: 0.3s;">
+            <div class="tile-content iconic">
+                <span class="icon mif-list"></span>
             </div>
-            <div class="tile-small bg-green">
-                <div class="tile-content iconic">
-                    <span class="icon mif-twitter"></span>
-                </div>
+            <span class="tile-label">Bugs/RFC</span>
+          </div>
+
+          <div class="tile bg-darkBlue fg-white" data-role="tile" onclick="document.location.href='/?page=detail'" style="opacity: 1; transform: scale(1); transition: 0.3s;">
+            <div class="tile-content iconic">
+                <span class="icon mif-suitcase"></span>
             </div>
+            <span class="tile-label">Bug details</span>
+          </div>
         </div>
     </div>
 </a>
@@ -34,26 +41,7 @@
     <div class="app-bar-drop-container bg-white fg-dark place-left"
             data-role="dropdown" data-no-close="true">
         <div class="padding20">
-            <form>
-                <h4 class="text-light">Login to service...</h4>
-                <div class="input-control text">
-                    <span class="mif-user prepend-icon"></span>
-                    <input type="text">
-                </div>
-                <div class="input-control text">
-                    <span class="mif-lock prepend-icon"></span>
-                    <input type="password">
-                </div>
-                <label class="input-control checkbox small-check">
-                    <input type="checkbox">
-                    <span class="check"></span>
-                    <span class="caption">Remember me</span>
-                </label>
-                <div class="form-actions">
-                    <button class="button">Login</button>
-                    <button class="button link">Cancel</button>
-                </div>
-            </form>
+            LIEVER SNEL NAAR DE HEL DAN TRAAG NAAR DE HEEEEEEEEMEEEL
         </div>
     </div>
 </div>

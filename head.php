@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<title><?php echo $name ?> - Spectrum Prototype for SmartHOTEL</title>
 <link href="http://cdn.metroui.org.ua/css/metro.min.css" rel="stylesheet">
 <link href="http://cdn.metroui.org.ua/css/metro-colors.min.css" rel="stylesheet">
 <link href="http://cdn.metroui.org.ua/css/metro-schemes.min.css" rel="stylesheet">
