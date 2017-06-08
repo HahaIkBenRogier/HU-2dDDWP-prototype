@@ -2,7 +2,7 @@
     <div class="heading">
         <span class="title">Melding maken</span>
     </div>
-    <div class="content padding20" id="issuemelden">
+    <div class="content padding10">
       <div class="full-size">
         <label class="input-control radio">
             <input type="radio" name="n1">
@@ -35,9 +35,9 @@
             <option>General inquiries on system usage</option>
         </select>
       </div>
-      <div class="input-control textarea">
+      <div class="input-control textarea no-float">
         <textarea></textarea>
       </div>
-      <div class="button">Verzenden</div>
+      <div class="button no-float">Verzenden</div>
   </div>
 </div>

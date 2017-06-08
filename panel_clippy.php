@@ -3,6 +3,6 @@
         <span class="title">For me</span>
     </div>
     <div class="content">
-        ... panel content ...
+        <img src="img/gunther/<?php echo $userswitch[$user_key]['clippy']?>.png">
     </div>
 </div>

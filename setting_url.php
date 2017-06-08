@@ -19,8 +19,8 @@ if (isset($user_get)) {
   $user_name = $userswitch[$user_get]["name"];
   $user_key = $user_get;
 } else {
-  $user_name = $userswitch["een_start"]["name"];
-  $user_key = "een_start";
+  $user_name = $userswitch["julia_default"]["name"];
+  $user_key = "julia_default";
 }
 
 //// URL BUILDER

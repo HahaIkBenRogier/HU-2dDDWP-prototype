@@ -8,7 +8,11 @@
       <div class="listview">
           <div class="list">
               <span class="list-icon mif-warning"></span>
-              <span class="list-title">Lalalalallaala <small class="full-size">Staat 23 dagen open</small></span>
+              <span class="list-title">Epxedia connection has delay <small class="full-size">Unsolved after 23 days</small></span>
+          </div>
+          <div class="list">
+              <span class="list-icon mif-warning"></span>
+              <span class="list-title">Parse error on forgot password page <small class="full-size">There is new information available</small></span>
           </div>
       </div>
       <h5>Overall process</h5>

@@ -40,13 +40,31 @@
             <small class="full-size">v17.0.673.36 on 20th June</small>
         </div>
         <h3>Involved</h3>
-        <?php for ($i=0; $i<5; $i++) { ?>
         <div class="tile-small bg-green fg-white" data-role="tile">
             <div class="tile-content iconic">
-                <span class="icon mif-gamepad"></span>
+                <img src="https://placehold.it/70" data-role="hint" data-hint-position="top" data-hint="Julia Rijcke|">
             </div>
         </div>
-        <?php } ?>
+        <div class="tile-small bg-green fg-white" data-role="tile">
+            <div class="tile-content iconic">
+                <img src="https://placehold.it/70" data-role="hint" data-hint-position="top" data-hint="Hotel Restaurant van Balveren|">
+            </div>
+        </div>
+        <div class="tile-small bg-green fg-white" data-role="tile">
+            <div class="tile-content iconic">
+                <img src="https://placehold.it/70" data-role="hint" data-hint-position="top" data-hint="Willem van Dijssel|">
+            </div>
+        </div>
+        <div class="tile-small bg-green fg-white" data-role="tile">
+            <div class="tile-content iconic">
+                <img src="https://placehold.it/70" data-role="hint" data-hint-position="top" data-hint="Gregory Shaw|">
+            </div>
+        </div>
+        <div class="tile-small bg-green fg-white" data-role="tile">
+            <div class="tile-content iconic">
+                <img src="https://placehold.it/70" data-role="hint" data-hint-position="top" data-hint="Daniel Steenbakker|">
+            </div>
+        </div>
         <h3>Revisions</h3>
         <div class="full-size button">
             Committitel
